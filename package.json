@@ -1,6 +1,6 @@
 {
   "name": "class-delegator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Delegates class methods to a member instance.",
   "keywords": [
     "delegate",
