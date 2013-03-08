@@ -1,0 +1,31 @@
+{
+  "name": "class-delegator",
+  "version": "0.0.0",
+  "description": "Delegates class methods to a member instance.",
+  "private": true,
+  "keywords": [
+    "delegate",
+    "delegation"
+  ],
+  "author": "Tyler Florez <qualiabyte@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qualiabyte/node-class-delegator.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "~1.4.0",
+    "docco": "~0.4.0",
+    "mocha": "~1.7.4",
+    "should": "~1.2.1",
+    "sweeten-docco": "~0.3.3"
+  },
+  "main": "lib/class_delegator.js",
+  "scripts": {
+    "clean": "rm -rf docs lib",
+    "prepublish": "coffee -c -o lib *.coffee; docco *.coffee && sweeten-docco",
+    "test": "mocha --compilers coffee:coffee-script test/*.coffee"
+  },
+  "license": "MIT"
+}
