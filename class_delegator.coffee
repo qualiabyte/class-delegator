@@ -6,6 +6,9 @@ class ClassDelegator
 
   # Delegates class methods to a member instance.
   #
+  # Just call `delegate` as part of your class definition, and
+  # ensure the named member instance is initialized on construction.
+  #
   #     class Duck
   #       quack: ->
   #         console.log 'quack!'

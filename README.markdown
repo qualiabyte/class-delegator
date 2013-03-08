@@ -51,6 +51,9 @@ ClassDelegator = require('class-delegator')
 
 Delegates class methods to a member instance.
 
+Just call `delegate` as part of your class definition, and
+ensure the named member instance is initialized on construction.
+
 **Params**
 + `delegatorClass` *Function* The class which will delegate.
 + `memberName` *String* The name of the member instance.
