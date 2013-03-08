@@ -9,7 +9,7 @@
   "author": "Tyler Florez <qualiabyte@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/qualiabyte/node-class-delegator.git"
+    "url": "git://github.com/qualiabyte/class-delegator.git"
   },
   "dependencies": {
   },
